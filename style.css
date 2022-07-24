@@ -4,12 +4,14 @@ body {
     padding: 0;
     margin: 0;
 	height:100%;
+  background-color: #f5f4ef;
 }
 
 html{
     min-height:100%;/* make sure it is at least as tall as the viewport */
     position:relative;
 }
+
 
 #container{
     position: absolute;
@@ -19,7 +21,7 @@ html{
     right: 0;
     min-width: 225px;
     width: 15%;
-}    
+}
 
 #menu {
     width: 130px;
@@ -112,7 +114,6 @@ html{
     width: 1150px;
     min-width: 950px;
     text-decoration: none;
-    color: rgba(0,0,0,1.00);
     font-family: "Crimson Text";
     letter-spacing: 0.5pt;
     line-height: 145%;
@@ -132,12 +133,33 @@ html{
     color: rgba(0,0,0,1.00);
     padding: 0px;
 }
+
+
+#contenutopagina .testo2 {
+    width: 500px;
+    float: left;
+    line-height: 135%;
+    padding-top: 0px;
+    font-size: 15pt;
+}
+#contenutopagina .testo2 img {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#contenutopagina .testo2 p {
+    margin-top: 25px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 25px;
+}
 #contenutopagina .testo {
-    width: 550px;
+    width: 500px;
     float: left;
     line-height: 135%;
     clear: left;
     padding-top: 0px;
+    padding-right: 100px;
     font-size: 15pt;
 }
 #contenutopagina .testo img {
@@ -150,7 +172,7 @@ html{
     margin-right: 0;
     margin-left: 0;
     margin-bottom: 25px;
-	
+
 }
 #contenutopagina .video {
     width: 60%;
@@ -182,6 +204,9 @@ html{
 .testo h2 {
     font-weight: lighter;
     font-size: 16pt;
+}
+.testo h1 {
+  font-weight: bolder;
 }
 .testo p a {
     color: rgba(0,0,0,1.00);
@@ -257,7 +282,7 @@ html{
     height: auto;
 
 }
-	
+
 	.itemtesto {
     float: left;
     margin-top: 25px;
@@ -273,6 +298,10 @@ html{
     float: left;
 }
 #contenutopagina .testo {
+    float: left;
+    max-width: 500px;
+}
+#contenutopagina .testo2 {
     float: left;
     max-width: 500px;
 }
@@ -318,7 +347,7 @@ html{
     margin-top: 50px;
     width: 80%;
 }
-	
+
 #menu {
     width: 80%;
     margin-top: 0px;
@@ -387,6 +416,15 @@ html{
 
 
 #contenutopagina .testo {
+    font-size: 13pt;
+    padding-left: 10%;
+    width: 80%;
+    margin: 0;
+    float: left;
+    padding-right: 10%;
+    line-height: 135%;
+}
+#contenutopagina .testo2 {
     font-size: 13pt;
     padding-left: 10%;
     width: 80%;
@@ -475,6 +513,15 @@ html{
     padding-right: 10%;
     line-height: 145%;
 }
+#contenutopagina .testo2 {
+    font-size: medium;
+    padding-left: 10%;
+    width: 80%;
+    margin: 0;
+    float: left;
+    padding-right: 10%;
+    line-height: 145%;
+}
 .cover {
     width: 100%;
     height: auto;
@@ -509,15 +556,27 @@ html{
     margin-bottom: 15px;
     margin-right: 10px;
 }
+}
 
+.rr {
+  background-color: #f78b43;
+}
+.buceo {
+  background-color: #1a1a1a;
+}
 
-
-
-
-
-
-
-
-
-
+.white {
+  color: #f5f4ef;
+}
+.white a {
+  color: #f5f4ef;
+}
+.white p a {
+  color: #f5f4ef;
+}
+.white #menu a {
+    color: #f5f4ef;
+}
+.white #footer a {
+    color: #f5f4ef;
 }
