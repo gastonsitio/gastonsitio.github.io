@@ -143,8 +143,8 @@ html{
     font-size: 15pt;
 }
 #contenutopagina .testo2 img {
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #contenutopagina .testo2 p {
@@ -163,8 +163,8 @@ html{
     font-size: 15pt;
 }
 #contenutopagina .testo img {
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #contenutopagina .testo p {
@@ -291,7 +291,6 @@ html{
 #contenutopagina {
     width: 65%;
     text-decoration: none;
-    color: rgba(0,0,0,1.00);
     font-family: "Crimson Text";
     letter-spacing: 0.5pt;
     line-height: 135%;
