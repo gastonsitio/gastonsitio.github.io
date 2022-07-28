@@ -134,6 +134,15 @@ html{
     padding: 0px;
 }
 
+#contenutopagina .fullv {
+    width: 100%;
+    float: left;
+    line-height: 135%;
+    clear: left;
+    padding-top: 0px;
+    padding-right: 100px;
+    font-size: 15pt;
+  }
 
 #contenutopagina .testo2 {
     width: 500px;
@@ -578,4 +587,20 @@ html{
 }
 .white #footer a {
     color: #f5f4ef;
+}
+
+.gold {
+  color: #ffd857;
+}
+.gold a {
+  color: #ffd857;
+}
+.gold p a {
+  color: #ffd857;
+}
+.gold #menu a {
+    color: #ffd857;
+}
+.gold #footer a {
+    color: #ffd857;
 }
