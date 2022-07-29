@@ -152,8 +152,8 @@ html{
     font-size: 15pt;
 }
 #contenutopagina .testo2 img {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 #contenutopagina .testo2 p {
@@ -172,8 +172,8 @@ html{
     font-size: 15pt;
 }
 #contenutopagina .testo img {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 #contenutopagina .testo p {
@@ -566,11 +566,19 @@ html{
 }
 }
 
+/* Fondos y colores */
+
 .rr {
   background-color: #f78b43;
 }
 .buceo {
   background-color: #1a1a1a;
+}
+.prope {
+  background-color: #ffd857;
+}
+.brum {
+  background-color: #f9f0e7;
 }
 
 .white {
@@ -603,4 +611,20 @@ html{
 }
 .gold #footer a {
     color: #ffd857;
+}
+
+.purple {
+  color: #662565;
+}
+.purple a {
+  color: #662565;
+}
+.purple p a {
+  color: #662565;
+}
+.purple #menu a {
+    color: #662565;
+}
+.purple #footer a {
+    color: #662565;
 }
