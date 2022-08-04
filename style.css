@@ -210,10 +210,7 @@ html{
 	width: 100%;
 	height: 100%;
 }
-.testo h2 {
-    font-weight: lighter;
-    font-size: 16pt;
-}
+
 .testo h1 {
   font-weight: bolder;
 }
@@ -579,6 +576,9 @@ html{
 }
 .brum {
   background-color: #f9f0e7;
+}
+.gris {
+  background-color: #585c5b;
 }
 
 .white {
