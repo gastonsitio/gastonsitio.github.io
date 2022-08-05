@@ -216,6 +216,9 @@ html{
 .testo p a {
     color: rgba(0,0,0,1.00);
 }
+.testo2 p a {
+    color: rgba(0,0,0,1.00);
+}
 
 .imageGallery1 {
     overflow: hidden;
