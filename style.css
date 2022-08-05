@@ -140,7 +140,6 @@ html{
     line-height: 135%;
     clear: left;
     padding-top: 0px;
-    padding-right: 100px;
     font-size: 15pt;
   }
 
@@ -475,7 +474,9 @@ html{
 }
 
 
-
+.fullv img {
+  width: 100%;
+}
 
 
 
@@ -508,6 +509,9 @@ html{
     margin-top: 25px;
 }
 
+.fullv img {
+  width: 100%;
+}
 
 #contenutopagina .testo {
     font-size: medium;
