@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+      <!-- Le doy la bienvenida al código de gastonsitio -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rambla">
+        <title>gastonsitio</title>
+  </head>
+
+    <body> 
+    <div class="container">
+      <div class="titulo">
+        <h1><a href="index.html">gastonsitio</a></h1>
+        </div>
+    </div>
+
+        <div class="menu">  
+          <h4>Trabajos</h4>
+          <h4><a href="blog.html">Blog</a></h4>
+          <h4><a href="enlaces.html">Enlaces</a></h4>
+          <h4><a href="sobremi.html">Sobre mí</a></h4>
+        </div>
+
+    <div class="container">
+      <!-- Menú por tags -->
+      <div id="filtro" class="filtro">  
+      <h4>Trabajos</h4>
+        <button class="btn active" onclick="filterSelection('all')"> Mostrar todo</button>
+      <p>Tipo</p>
+      <button class="btn" onclick="filterSelection('grafica')">Gráfica</button>
+      <button class="btn" onclick="filterSelection('imagen')">Imagen</button>
+      <button class="btn" onclick="filterSelection('video')">Audiovisual</button>
+      <button class="btn" onclick="filterSelection('3d')">3D</button>
+      <button class="btn" onclick="filterSelection('otros')">Otros</button>
+      <p>Interés</p>
+        <button class="btn" onclick="filterSelection('personal')">Personal</button>
+        <button class="btn" onclick="filterSelection('academico')">Académico</button>
+        <button class="btn" onclick="filterSelection('comercial')">Comercial</button>
+      <p>Año</p>
+        <button class="btn" onclick="filterSelection('2024')">2024</button>
+        <button class="btn" onclick="filterSelection('2023')">2023</button>
+        <button class="btn" onclick="filterSelection('2022')">2022</button>
+        <button class="btn" onclick="filterSelection('2021')">2021</button>
+        <button class="btn" onclick="filterSelection('2019')">2019</button>
+        <button class="btn" onclick="filterSelection('2018')">2018</button>
+        <button class="btn" onclick="filterSelection('2017')">2017</button>
+        <button class="btn" onclick="filterSelection('2016')">2016</button>
+      </div>
+      <!-- Fin del menú -->
+
+
+      <!-- Comienzo de posteos, ordenadas por fecha -->
+      <div>
+        <div class="bienvenida">
+          <p style="color: rgb(255, 225, 57);">Le doy la bienvenida a gastonsitio.</p>
+          <p>En esta página encontrará una serie de trabajos realizados a lo largo de los años, desde el diseño gráfico de identidades visuales hasta cortos audiovisuales. A la izquierda encontrará filtros para ordenar el contenido por tipo, contexto y año de elaboración.</p>
+          <p>Debe hacer click sobre el título o la imagen para ingresar a la página de visualización del proyecto. Le invito a clickear en el contenido que le interese para observarlo con más detalle y leer comentarios de su proceso.</p>
+          <p>Espero disfrute de lo que encuentre, por cualquier comentario puede escribirme a través de la página 'Sobre mí'.</p>
+        </div>
+
+      <div class="fecha">
+        <div class="posts grafica academico 2024">
+          <h3><a href="trabajos/2024/3encot.html">3er Encuentro de Construcción con Tierra</a></h3>
+          <a href="trabajos/2024/3encot.html"><img src="images/trabajos/3tierra.gif" alt="3er Encuentro de Construcción con Tierra"></a>
+          <p>Identidad gráfica para la tercera edición del Encuentro de Construcción con Tierra, organizado por el Centro Universitario de Tacuarembó y la Facultad de Arquitectura Diseño y Urbanismo, de la Universidad de la República (Udelar).</p>
+          <h5>#gráfica #académico #2024</h5>
+        </div>
+
+        <div class="posts grafica personal 2024">
+          <h3><a href="trabajos/2024/flisol.html">FLISoL Uruguay 2024</a></h3>
+          <a href="trabajos/2024/flisol.html"><img src="images/trabajos/flisol.png" alt="FLISoL 2024"></a>
+          <p>Identidad gŕafica para el evento FLISoL Montevideo 2024, el Festival Latinoamericano de Instalación de Software Libre. Organizado de forma voluntaria por militantes del software libre.</p>
+          <h5>#grafica #personal #2024</h5>
+        </div>
+     
+        <div class="posts imagen 3d personal 2023">
+          <h3><a href="http://colectivociudadabierta.org/mapa-interactivo/">Día internacional sin autos - Colectivo Ciudad Abierta</a></h3>
+          <a href="http://colectivociudadabierta.org/mapa-interactivo/"><img src="images/trabajos/ciudadabierta.png" alt="Ciudad Abierta"></a>
+          <p>Participación en la convocatoria del Colectivo Ciudad Abierta a artistas visuales a reimaginar lugares de nuestras ciudades con foco en la movilidad sostenible y las personas en el centro.</p> 
+            
+          <p>Un fotomontaje realizado con Blender y otras imaginaciones hechas con Dall-E.</p>
+          <h5>#imagen #3d #ia #personal #2023</h5>
+        </div>
+
+        <div class="posts video 3d academico 2023">
+          <h3><a href="trabajos/2023/hackearelarchivo.html">Audiovisual y patrimonio - Hackear el archivo</a></h3>
+          <img src="images/trabajos/avypat.gif" alt="Audiovisual y patrimonio">
+          <p>Participación en el curso espacio de práctica integral "Audiovisual y patrimonio: hackear el archivo" del programa APEX, Udelar.</p> 
+          <p>Se trabajó sobre el territorio del Cerro (Montevideo) a partir de sus archivos de imágenes utilizando técnica de remix y otras asociadas a la técnica del videomapping para dinamizar, interpretar, resignificar el patrimonio y la memoria mediante el desarrollo de instalaciones audiovisuales en el espacio público o espacios vinculados a la memoria y la cultura.</p>
+          <h5>#audiovisual #3d #videomapping #académico #2023</h5>
+        </div>
+
+        <div class="posts video 3d personal 2023">
+          <h3><a href="https://www.youtube.com/watch?v=f2Dhw8xJZOA">Algoritmo</a></h3>
+          <a href="https://www.youtube.com/watch?v=f2Dhw8xJZOA"><img src="images/trabajos/algoritmo.png" alt="Algoritmo"></a>
+          <p>Corto narrativo contemporáneo. Entorno y elementos 3D realizados en Blender.</p>
+          <h5>#audiovisual #3d #personal #2023</h5>
+        </div>
+
+        <div class="posts video 3d comercial 2023">
+          <h3><a href=" https://www.youtube.com/watch?v=Ju5tPfZE6eQ">Thursday Night - Diego Rodríguez</a></h3>
+          <a href=" https://www.youtube.com/watch?v=Ju5tPfZE6eQ"><img src="images/trabajos/diego.png" alt="Thursday Night"></a>
+          <p>Tapa de disco y visualizador en video para álbum de música. Realizado en Blender.</p>
+          <h5>#audiovisual #3d #comercial #2023</h5>
+        </div>
+        <div class="posts video personal 2023">
+          <h3><a href=" https://www.youtube.com/watch?v=haQGc7ZofT4">Sueños pandémicos</a></h3>
+          <a href=" https://www.youtube.com/watch?v=haQGc7ZofT4"><img src="images/trabajos/suenios.png" alt="Sueños pandémicos"></a>
+          <p>Corto escrito y producido a partir de un sueño en pandemia.</p>
+          <h5>#audiovisual #personal #2023</h5>
+        </div>
+        <div class="posts grafica personal 2023">
+          <h3><a href="trabajos/2023/ironico.html">Consumo irónico</a></h3>
+          <img src="images/trabajos/ironico.png" alt="Consumo irónico">
+          <p>Ejercicio de ilustración.</p>
+          <p>#grafica #personal #2023</p>
+        </div>
+
+        <div class="posts grafica academico 2022">
+          <h3><a href="trabajos/2022/tierra.html">Equipo Tierra - FADU UdelaR</a></h3>
+          <img src="images/trabajos/tierra.gif" alt="Equipo Tierra">
+           <p>Sistema de identidad visual para el Equipo Tierra de la Facultad de Arquitectura Diseño y Urbanismo, de la Universidad de la República (Udelar).</p>
+           <p>#gráfica #académico #2022</p>
+        </div>
+      <div class="posts imagen grafica comercial 2022">
+        <h3><a href="trabajos/2022/rr.html">RR Etiquetas</a></h3>
+        <img src="images/trabajos/rreti.png" alt="RR Etiquetas">
+         <p>Resumen de trabajos para RR Etiquetas (2019-2022).</p>
+         <p>#imagen #grafica #comercial #2022</p>
+      </div>
+      <div class="posts grafica academico 2022">
+        <h3><a href="trabajos/2022/bbpp.html">El fenómeno de los barrios privados en Uruguay</a></h3>
+        <img src="images/trabajos/bbpp.gif" alt="Barrios Privados">
+         <p>Trabajo realizado en el Taller de diseño de comunicación visual 5.</p>
+         <p>#gráfica #académico #2022</p>
+      </div>
+      <div class="posts imagen comercial 2022">
+        <h3><a href="trabajos/2022/fotomontajes.html">Ediciones y Fotomontajes varios</a></h3>
+        <img src="images/trabajos/varios.gif" alt="Entre la espada y la pared">
+        <p>Resumen de ediciones fotográficas y fotomontajes con sus detrás de escena.</p>
+        <p>#imagen #comercial #2022</p>
+      </div>
+
+      <div class="posts grafica academico 2021">
+        <h3><a href="trabajos/2021/buceo.html">Buceo</a></h3>
+        <img src="images/trabajos/buceo.gif" alt="Buceo">
+        <p>Proyecto realizado en el Taller de diseño de comunicación visual 4 realizado con Cristian Recoba.</p>
+        <p>#buceo #académico #2021</p>
+      </div>
+
+        <div class="posts grafica comercial 2019">
+          <h3><a href="trabajos/2019/tiyvahlcm.html">Tomo impulso y vuelvo a hacer las cosas mal</a></h3>
+          <img src="images/trabajos/tiyvahlcm.png" alt="Tomo impulso y vuelvo a hacer las cosas mal">
+          <p>Diseño gráfico para el último disco de La Mala Lengua.</p>
+          <p>#gráfica #comercial #2019</p>
+        </div>
+      <div class="posts imagen video comercial 2019">
+        <h3><a href="trabajos/2019/lamalalengua.html">La Mala Lengua</a></h3>
+        <img src="images/trabajos/malale.png" alt="Buceo">
+        <p>Resumen de todo lo trabajado para la banda de rock La Mala Lengua.</p>
+        <p>#imagen #audiovisual #comercial #2019</p>
+      </div>
+
+      <div class="posts grafica comercial 2018">
+        <h3><a href="trabajos/2018/prope.html">Pro Peñarol</a></h3>
+        <img src="images/trabajos/prop.png" alt="Pro Peñarol">
+        <p>Gráfica para el sitio de periodismo partidario Pro Peñarol.</p>
+        <p>#gráfica #imagen #comercial #2018</p>
+      </div>
+
+      <div class="posts grafica comercial 2017">
+        <h3><a href="trabajos/2017/perros.html">En el camino de los perros</a></h3>
+        <img src="images/trabajos/perros.png" alt="En el camino de los perros">
+        <p>Serie de afiches para el encuentro de poesía EECDLP.</p>
+        <p>#gráfica #comercial #2017</p>
+      </div>
+
+      <div class="posts otros comercial 2016">
+        <h3><a href="https://aphos.com.uy/">Aphos</a></h3>
+        <a href="https://aphos.com.uy/"><img src="images/trabajos/aphos.png" alt="Aphos"></a>
+        <p>Sitio web para el laboratorio de calibraciones Aphos.</p>
+        <p>#otros #web #comercial #2016</p>
+      </div>
+    </div>
+  </div>
+</div>
+        <!-- Fin de los posteos -->
+    
+      <div class="container">
+      <div class="footer">
+        <img src="images/chopan.png" alt="Despedida del sitio, un placer">  
+      </div>
+      </div>
+
+    <!-- Fin del sitio, gracias por su visita! -->
+      
+    <script src="javascript.js">
+    </script>  
+  </body>
+</html>
