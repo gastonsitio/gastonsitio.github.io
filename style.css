@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-    font-size: 4em ;
+    font-size: 3.3em ;
     color: aliceblue;
 }
 
@@ -21,11 +21,11 @@ h2 {
 }
 
 h3 {
-    font-size: 1.8em;
+    font-size: 1.6em;
 }
 
 h4 {
-    font-size: 1.4em;
+    font-size: 1.3em;
 }
 
 h5 {font-size: 1.1em;
@@ -34,7 +34,7 @@ h5 {font-size: 1.1em;
   }
 
 p {
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 a {
@@ -127,14 +127,14 @@ img {
     background-color: hsl(259, 1%, 12%);
     border: 2px solid hsl(271, 1%, 25%);
     padding: 50px;
-    margin-bottom: 5px;
-    max-width: 760px;
+    margin-bottom: 20px;
+    max-width: 690px;
 }  
   
 .fecha {
     background-color: rgb(42, 35, 57);
     border: 2px solid rgb(83, 58, 107);
-    padding: 10px 30px 30px 30px;
+    padding: 5px 20px 20px 20px;
     max-width: 800px;
   }   
 
@@ -169,7 +169,7 @@ img {
 .blogbg {
   background-color: rgb(42, 35, 57);
   border: 2px solid rgb(83, 58, 107);
-  padding: 30px 30px 30px 30px;
+  padding: 20px 20px 20px 20px;
   max-width: 800px;
 }  
 
