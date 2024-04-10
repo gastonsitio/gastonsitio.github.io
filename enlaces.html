@@ -5,8 +5,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans">
         <title>gastonsitio</title>
     </head>
     
@@ -23,25 +23,63 @@
             <h4>Enlaces</h4>
             <h4><a href="sobremi.html">Sobre mí</a></h4>
           </div>
+
+          <div class="container">
+            <div class="bienvenida">
+              <p>Aquí comparto enlaces a recursos, materiales y contenidos que me parecen imperdibles y que quiero compartir (lecturas, audio-visuales, recursos y materiales, y memes, por supuesto).</p>
+
+              <p>La mayoría de los recursos que comparta son libres y de código abierto, que respetan la privacidad y la recolección de datos personales. En caso de que no sea así será aclarado en el texto del contenido.</p>
+              <p>Actualmente estoy recopilando enlaces por lo que solo encontrará un ejemplo de lo que próximamente habrá.</p>
+              <p><a>Si le interesa recibir un correo cuando publique o comparta algo nuevo</a>, envíe un mail con asunto <i>'gastonsitio'</i> a <a>ghannay@gmail.com</a> y con gusto le enviaré novedades.</p>
+
+              <div class="blogtag"><a href="mailto:ghannay@gmail.com"><button class="btn">Suscribirse</button></a></div>
+                </div>
+            </div>
     
       <div class="container">
-        <div>
-          <div class="bienvenida">
-            <p style="color: rgb(255, 225, 57);">En construcción</p>
-            <p>🚧</p>
-          </div>
-        </div>      
-      </div>
-
-        <!-- Fin de los posteos -->
+        <!-- Menú por tags -->
+        <div id="filtro" class="filtro sticky">  
+        <p>Enlaces</p>
+          <button class="btn active" onclick="filterSelection('all')"> Mostrar todo</button>
+          <button class="btn" onclick="filterSelection('lecturas')">Lecturas</button>
+          <button class="btn" onclick="filterSelection('audiovisual')">Audiovisual</button>
+          <button class="btn" onclick="filterSelection('materiales')">Recursos y materiales</button>
+          <p>Año</p>
+          <button class="btn" onclick="filterSelection('2024')">2024</button>
+          <button class="btn" onclick="filterSelection('2023')">2023</button>
+        </div>
+        <!-- Fin del menú -->
     
+    
+    
+          <!-- Comienzo de posteos, ordenadas por fecha -->
+        <div>    
+          <div class="fecha">
+          <div class="posts audiovisual lecturas 2024">
+             <h3><a href="https://www.youtube.com/watch?v=pV9xoQyIcOc" target="_blank">Presentación del libro URBANISMO NEOLIBERAL de Marcelo Pérez</a> / 📚</h3>
+             <p>Video presentación del libro URBANISMO NEOLIBERAL - Barrios Privados en Uruguay de Marcelo Pérez, editado por Ediciones del Berretín. Es parte de la investigación en que basamos la <a href="trabajos/2022/bbpp.html">infografía</a> sobre los barrios privados en el taller de DCV 5. Recomiendo ver el video para enterarse de un importante debate.</p>
+              <h5>#audiovisual #lecturas #2024</h5>
+           </div>
+
+          <div class="posts materiales 2023">
+            <h3><a href="https://vdo.ninja/" target="_blank">VDO Ninja</a> / 📸 📱 🖥️</h3>
+            <p>Sirve para usar la cámara y el micrófono del teléfono como webcam en una computadora. Muy fácilmente se transmite desde el navegador de tu teléfono hacia el software OBS Studio. Sin recolección de datos.</p>
+            <h5>#recursos #materiales #webcam #obs #2023</h5>
+          </div>
+        </div>
+
+        </div>
+      </div>
+    
+        <!-- Fin de los posteos -->
+
         <div class="container">
           <div class="footer">
-            <img src="images/le chat.png" alt="Despedida del sitio, un placer">  
+            <img src="images/baul.gif" alt="Despedida del sitio, un placer">  
           </div>
           </div>
     
-        <!-- Fin del sitio, gracias por su visita! -->      
+        <!-- Fin del sitio, gracias por su visita! -->
     
         <script src="javascript.js">
         </script>  
