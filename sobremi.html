@@ -5,8 +5,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rambla:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">  
         <title>gastonsitio</title>
     </head>
     
@@ -31,10 +32,10 @@
             <p>Podés enviarme un mail a <a>ghannay@gmail.com</a> 📩</p>
             <p>En redes sociales podés encontrarme en el fediverso desde <a href="https://mastodon.uy/@gastonsitio" target="_blank">Mastodón</a>, con el handle <a>@gastonsitio@mastodon.uy 🐘</a></p>
             <p>No uso facebook, ni twitter. Tengo un usuario de instagram con el mismo nombre que esta página, pero no comparto nada por ahí.</p>
-            <p>Si le interesa recibir un correo cuando publique o comparta una nueva nota, envíe un mail con asunto 'gastonsitio' a <a>ghannay@gmail.com</a> y con gusto le enviaré novedades.</p>
-            <p>Próximamente habrá feed RSS.</p>
+            <p>Si le interesa recibir un correo cuando comparta algo nuevo, envíe un mail con asunto 'gastonsitio' a <a>ghannay@gmail.com</a> y con gusto le enviaré novedades.</p>
+            <p>También puede seguir el blog desde el feed RSS.</p>
             <div class="blogtag"><a href="mailto:ghannay@gmail.com"><button class="btn">Suscribirse</button></a>
-              <a href="rss"><button class="btn">Feed RSS</button></a></div>
+              <a href="feed.xml"><button class="btn">Feed RSS</button></a></div>
   
           </div>
       </div>
@@ -45,9 +46,17 @@
         </div>
         </div>
   
-      <!-- Fin del sitio, gracias por su visita! -->
-  
-        <script src="javascript.js">
-        </script>  
-        </body>
+        <div class="container">
+          <div class="bienvenida">
+            <p style="color: antiquewhite;">N° de visitas:
+            <span class="tinylytics_hits"></span>
+            <span class="tinylytics_countries"></span></p>
+          </div>
+          </div>
+          
+          <!-- Fin del sitio, gracias por su visita! -->      
+      
+          <script src="javascript.js"></script>  
+          <script src="https://tinylytics.app/embed/myS5NBzDWosm37q2ATTn.js?hits&countries&ignore" defer></script> 
+          </body>
 </html>

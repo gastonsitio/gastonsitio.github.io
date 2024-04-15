@@ -1,0 +1,23 @@
+    <?xml version=»1.0″ encoding=»UTF-8″ ?>
+    <rss version=»2.0″>
+
+    <channel>
+
+    <title>gastonsitio</title>
+    <link>https://gastonsitio.github.io/</link>
+    <description>Las novedades del sitio de Gastón.</description>
+    <copyright>CC 4.0 – BY-SA<copyright>
+
+    <item>
+
+    <title>Abril 2024</title>
+    <link>https://gastonsitio.github.io/</link>
+    <description>Buenos días. Luego de unos cuantos días de trabajo dejo la primera actualización del sitio: agregué nuevos trabajos de 2024, como la gráfica para el FLISoL Montevideo o el 3er Encuentro de Construcción con Tierra. También estoy estrenando blog, con un par de notas sobre mis derivas internéticas. Espero le agrade el sitio! Siéntase como en casa.</description>
+    <author>gastonsitio</author>
+    <pubDate>01 de abril de 2024</pubDate>
+
+    </item>
+
+    </channel>
+
+    </rss>

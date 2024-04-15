@@ -5,9 +5,10 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans">
-        <title>gastonsitio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rambla:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">        
+       <title>gastonsitio</title>
     </head>
     
     <body> 
@@ -28,9 +29,10 @@
             <div class="bienvenida">
               <p>En las categorías de este blog se encuentran notas, fotos, videos, visuales y dibujos. Todos los contenidos hechos por mí son libres de ser descargados y utilizados como le parezca pertinente.</p> 
                 
-              <p><a>Si le interesa recibir un correo cuando publique o comparta algo nuevo</a>, envíe un mail con asunto <i>'gastonsitio'</i> a <a>ghannay@gmail.com</a> y con gusto le enviaré novedades.</p>
+              <p><a>Si le interesa recibir un correo cuando comparta algo nuevo</a>, envíe un mail con asunto <i>'gastonsitio'</i> a <a>ghannay@gmail.com</a> y con gusto le enviaré novedades. También puede seguir el blog desde el feed RSS.</p>
 
-              <div class="blogtag"><a href="mailto:ghannay@gmail.com"><button class="btn">Suscribirse</button></a></div>
+              <div class="blogtag"><a href="mailto:ghannay@gmail.com"><button class="btn">Suscribirse</button></a>
+                <a href="feed.xml"><button class="btn">Feed RSS</button></a></div>
                 </div>
             </div>
     
@@ -57,6 +59,19 @@
           <!-- Comienzo de posteos, ordenadas por fecha -->
         <div>    
           <div class="fecha">
+          <div class="posts videos fotos 2024">
+            <h3><a href="blog/2024/cvs.html">Postales de viaje</a></h3>
+            <p>Acompañame en mi viaje durante dos meses por algunas ciudades de Europa. Proyecto interactivo multimedia, aborda fotografía, video, 3D y texto.</p>
+            <h5>#multimedia #personal #2024</h5>
+          </div>
+
+          <div class="posts notas 2024">
+            <h3><a href="2022">En defensa del diseño gráfico</a></h3>
+            <img src="images/trabajos/malale.pn" alt="Buceo">
+            <p>Primer corto en colectivo.</p>
+            <h5>#notas #2024</h5>
+          </div>
+
           <div class="posts notas visuales 2024">
             <h3><a href="blog/2024/cvs.html">Coding systems</a></h3>
             <a href="blog/2024/cvs.html"><img src="images/blog/codingsys.gif" alt="Coding Systems"></a>
@@ -70,6 +85,41 @@
             <p>Ejercicio de ilustración.</p>
             <h5>#visuales #ilustración #2023</h5>
           </div>
+       
+          <div class="posts notas 2023">
+            <h3><a href="2022">Ceño fruncido</a></h3>
+            <img src="images/trabajos/malale.pn" alt="Buceo">
+            <p>Escrito desde la playa de Punta Negra en febrero de 2023.</p>
+            <h5>#notas #2023</h5>
+          </div>
+
+        <div class="posts notas 2024">
+          <h3><a href="2022">PESPasión</a></h3>
+          <img src="images/blog/pespasion.png" alt="Buceo">
+          <p>Experiencia de comunidad local digital.</p>
+          <h5>#notas #videojuegos #2011</h5>
+        </div>
+       
+        <div class="posts videos 2009">
+          <h3><a href="2022">PeneDeluxe</a></h3>
+          <img src="images/trabajos/malale.pn" alt="Buceo">
+          <p>Primer corto en colectivo.</p>
+          <h5>#videos #2009</h5>
+        </div>
+       
+        <div class="posts videos 2007">
+          <h3><a href="2022">Counter-Gastón</a></h3>
+          <img src="images/trabajos/malale.pn" alt="Buceo">
+          <p>Mi primer corto.</p>
+          <h5>#videos #2007</h5>
+        </div>
+     
+        <div class="posts videos 2006">
+          <h3><a href="2022">Negro y Blanco</a></h3>
+          <img src="images/trabajos/malale.pn" alt="Buceo">
+          <p>Dibujo animado hecho en Paint y Movie Maker. Con 10 años.</p>
+          <h5>#videos #2006</h5>
+        </div>
         </div>
 
         </div>
@@ -83,9 +133,17 @@
           </div>
           </div>
     
-        <!-- Fin del sitio, gracias por su visita! -->
-    
-        <script src="javascript.js">
-        </script>  
-        </body>
+          <div class="container">
+            <div class="bienvenida">
+              <p style="color: antiquewhite;">N° de visitas:
+              <span class="tinylytics_hits"></span>
+              <span class="tinylytics_countries"></span></p>
+            </div>
+            </div>
+            
+            <!-- Fin del sitio, gracias por su visita! -->      
+        
+            <script src="javascript.js"></script>  
+            <script src="https://tinylytics.app/embed/myS5NBzDWosm37q2ATTn.js?hits&countries&ignore" defer></script> 
+            </body>
 </html>
